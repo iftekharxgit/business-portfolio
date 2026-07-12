@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+   
+}
+
+
+.logo-a span{color: #fd6e0a;}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0px ;
+   max-width: 1200px;
+   margin: auto;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+}
+.common-button{
+     padding: 6px 12px;
+    background-color: #fd6e0a;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+    
+  .common-button:hover{
+    background-color: #490ce2;
+      transition: .6s ease;
+  }  
+
+.outline-button{
+     padding: 6px 12px;
+    background-color: white;
+    border: 1px solid #fd6e0a;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #fd6e0a;
+    cursor: pointer;
+    font-size: 18px;
+}
+.outline-button:hover{
+    background-color:  #0ad0ea;
+     transition: .2s ease;
+}
+.hero-container{
+    background-color: #fbf2ed;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+.hi{
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 0.6;
+    
+}
+.bio{
+    font-weight: bold;
+    opacity: 0.6;
+    font-size: 12px;
+     margin-top:12px;
+
+}
+.hero h1{
+    font-size: 65px;
+    margin-top:12px;
+}
+.my-photo{
+   
+   
+}
+.about-container{
+     background-color: #fbf2ed;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin:70px auto;
+    padding: 70px;
+}
+.about-me{}
+    /* background-color: #fbf2ed;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin:70px auto; */
+
+  
+
+ .about-me h2{   font-size: 30px;
+      text-align: center;
+      /* padding-top: 50px;
+      padding-bottom: 20px; */
+      padding:30px ;
+}
+
+.about-me p{
+    text-align: center;
+    font-size: 15px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 60px; */
+   padding: 30px 30px;
+}
+.info,h4{
+    font-size: 15px;
+}
+
+.experience{
+    margin: 60px auto;
+    text-align: center;
+}
+.experience > h2{
+    font-size: 50px;
+    margin-bottom: 35px;
+}
+.exp-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin:50px auto;
+    padding: 40px;
+    gap: 17px;
+ 
+}
+.exp-card{
+    
+  
+   padding: 10px;
+   text-align: left;
+   height: 350px;
+   width: 220px;
+   box-shadow: 0 0 4px grey;
+   
+ }
+.exp-card h2{
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+   
+
+}
+.exp-card p{
+    color: #757575;
+}
+.summary{
+    font-size: 45px;
+}
+.edu-ex{
+     display: grid;
+     grid-template-columns: repeat(2,auto);
+      justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin:50px auto;
+    padding: 40px;
+    gap: 25px;
+   
+}
+.edu-ex h2{
+    font-size: 32px;
+    padding-bottom: 15px;
+   
+}
+.edu-ex h3{
+    font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 6px;
+}
+.institute{
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+.summ-down{
+     display: flex;
+      justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin:50px auto;
+  
+}
+footer{
+     background-color: #fbf2ed;
+}
+.footer-style{
+   
+     text-align: center;
+     margin-top: 40px;
+     display: flex;
+     justify-content: space-between;
+     gap: 10px;
+}
+footer form input,textarea {
+   
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: white;
+    padding: 8px 15px ;
+    border-radius: 6px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+  
+
+
+footer form{
+  
+}
+.last-submit-button{
+     padding: 6px 12px;
+    background-color: #fd6e0a;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    
+
+}
+.lets{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.footer-style p {
+    text-align: left;
+    padding-bottom: 20px;
+}
+/* .connect{
+    display: block;
+} */
